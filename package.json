@@ -1,0 +1,31 @@
+{ "name" : "unpack"
+, "author": "Andrey Sidorov <sidorares@yandex.ru>"
+, "description": ""
+, "keywords": ["unpack", "binary"]
+, "homepage": "https://github.com/sidorares/node-unpack"
+, "version" : "0.0.1"
+, "maintainers" :
+  [ { "name": "Andrey Sidorov"
+    , "email": "sidoares@yandex.ru"
+    }
+  ]
+, "bugs" : { "url" : "http://github.com/sidorares/node-unpack/issues" }
+, "licenses" : [ { "type" : "MIT" } ]
+, "repositories" :
+  [ { "type" : "git"
+    , "url" : "http://github.com/sidorares/node-unpack"
+    }
+  ]
+, "main" : "index.js"
+, "engines" : { "node" : "*" }
+, "dependensies": {
+    "buffers": "0.1.1"
+}
+, "devDependencies": {
+    "mocha": "*"
+  }
+, "scripts": {
+    "test": "mocha",
+    "prepublish" : "npm prune"
+  }
+}
